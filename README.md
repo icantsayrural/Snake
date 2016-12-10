@@ -7,9 +7,9 @@ As with the original, one loses when all health points are lost from collision w
 the walls or the snake itself. </br>
 
 ### Extra features
-<img src="images/red_square.png" width="15"> <b>Red square</b>: increases your score and also the length of the snake. </br>
+<img src="images/red_square.png" width="15"> <b>Red square</b>: increases score and also the length of the snake. </br>
 <img src="images/detached_wall_barrier.png" width="15"> <b>Detached wall barrier</b>: randomly distributed across the board; unlocked after level 0 </br>
-<img src="images/golden_nugget.png" width="15"> <b>Golden nugget</b>: increases your health points </br>
+<img src="images/golden_nugget.png" width="15"> <b>Golden nugget</b>: increases health points </br>
 
 ### Keys
 * Arrow keys for movement

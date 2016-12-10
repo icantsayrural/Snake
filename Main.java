@@ -61,16 +61,13 @@ public class Main {
 
         JLabel descLabel = new JLabel(
                 "<html>" +
-                        "This is a classic game of Snakes with a twist.<br>" +
-                        "The snake dies if it bumps into itself or the wall.<br>" +
-                        "The snake gains score if it eats the red foods.<br>" +
-                        "The snake gains life if it eats the golden nuggets.<br>" +
-                        "There are 5 levels in this game.<br>" +
-                        "To defeat it, you need to gain 200 scores on each level without dying.<br>" +
+                        "A twist on the classic game of Snakes<br>" +
+                        "Red squares: increases score and also the length of the snake<br>" +
+                        "Detached wall barrier: randomly distributed across the board; unlocked after level 0<br>" +
+                        "Golden nugget: increases health points<br>" +
                         KEY_DESCRIPTION + "<br>" +
                         "<br>" +
                         "Author: Joanne Hong<br>" +
-                        "Alias: j46hong<br>" +
                 "</html>"
         );
 
@@ -233,7 +230,7 @@ public class Main {
                         }
                     } else if (powerUp.isActive() && powerUp.isEaten()) {
                         sound.playPowerUpSound();
-                        
+
                         snake.lifeUp();
 
                         lifeLabel.setText(lifeText());
