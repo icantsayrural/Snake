@@ -185,7 +185,7 @@ public class Snake {
     private Point getNewHead() {
         Point newPoint = new Point(getHead().x, getHead().y);
 
-        // this switch statement calculates the new head location
+        // Calculates the new head location
         // and checks for collision with snake itself and the wall
         switch (direction) {
             case NORTH:
@@ -204,7 +204,7 @@ public class Snake {
 
         dead = Board.isSnake(newPoint) || Board.isWall(newPoint);
 
-        // for going through walls
+        // handle going through walls
         if (newPoint.x <= 0) {
             newPoint.setLocation(Board.COL-1, newPoint.y);
             changeDirection(EAST);

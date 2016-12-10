@@ -200,7 +200,7 @@ public class Main {
             }
         });
 
-        // create a task for snake's constant movement
+        // create a task for snake's animation
         ActionListener snakeTask = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

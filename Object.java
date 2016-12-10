@@ -31,7 +31,6 @@ abstract public class Object {
         transform();
     }
 
-    // abstract methods that must be implemented
     abstract protected void transform();
 
     abstract protected void erase();
