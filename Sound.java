@@ -2,10 +2,10 @@ import java.io.InputStream;
 import javax.sound.sampled.*;
 
 public class Sound {
-    private final String DEATH_FILE = "death.wav";
-    private final String FOOD_FILE = "food.wav";
-    private final String POWER_UP_FILE = "powerUp.wav";
-    private final String LEVEL_UP_FILE = "levelUp.wav";
+    private static final String DEATH_FILE = "sound/death.wav";
+    private static final String FOOD_FILE = "sound/food.wav";
+    private static final String POWER_UP_FILE = "sound/powerUp.wav";
+    private static final String LEVEL_UP_FILE = "sound/levelUp.wav";
 
     private Clip foodClip;
     private Clip deathClip;
