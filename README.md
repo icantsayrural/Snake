@@ -11,15 +11,15 @@ the walls or the snake itself. </br>
 <img src="images/detached_wall_barrier.png" width="15"> <b>Detached wall barrier</b>: randomly distributed across the board; unlocked after level 0 </br>
 <img src="images/golden_nugget.png" width="15"> <b>Golden nugget</b>: increases health points </br>
 
+## Usage
+Run `make` and then `make run`
+
 ### Keys
 * Arrow keys for movement
 * `q` - quit
 * `p` - pause
 * `r` - restart
 * `s` - start/continue
-
-## Usage
-Run `make` and then `make run`
 
 ## Screenshot
 <img src="images/screenshot.png" width="500">
